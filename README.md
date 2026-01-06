@@ -17,12 +17,11 @@ E – Exposed (infected but not yet infectious)
 I – Infected and infectious
 
 R – Recovered with permanent immunity
-
+ 
 # State Transitions
-Transition	Meaning
-S → E	      Susceptible becomes exposed after contact with an infected individual
-E → I	      End of incubation period
-I → R	      Recovery
+* S → E :	      Susceptible becomes exposed after contact with an infected individual
+* E → I	:      End of incubation period
+* I → R	:      Recovery
 
 All transitions are stochastic and evaluated at each timestep.
 
@@ -58,8 +57,8 @@ As a result, the system always produces a single-wave epidemic.
 
 # What This Project Demonstrates
 
-How epidemic curves arise from local contact dynamics
+* How epidemic curves arise from local contact dynamics
 
-The impact of finite contact capacity on disease spread
+* The impact of finite contact capacity on disease spread
 
-The role of network heterogeneity in shaping outbreak evolution
+* The role of network heterogeneity in shaping outbreak evolution
